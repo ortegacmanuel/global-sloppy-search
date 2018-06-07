@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'search', to: 'searches#search'
+  root 'searches#search'
   resources :authors
   resources :videos
   resources :games

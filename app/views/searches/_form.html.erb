@@ -1,0 +1,8 @@
+<form role='search' style="max-width: 600px;">
+  <div class="input-group">
+    <%= text_field_tag :q, params[:q], class: 'form-control', placeholder:'Find something...' %>
+    <span class="input-group-btn">
+      <button type="submit" class="btn btn-success">Search</button>
+    </span>
+  </div>
+</form>

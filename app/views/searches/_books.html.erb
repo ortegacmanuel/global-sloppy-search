@@ -1,0 +1,16 @@
+<% if @results.key?(:books) %>
+  <div class="container search-results">
+    <hgroup class="mb20">
+  		<h2 class="lead text-center"><strong class="text-danger"><%= @results[:books].count %></strong> <%= 'book'.pluralize(@results[:books].count) %> were found for the search for <strong class="text-danger"><%= params[:q] %></strong></h2>
+  	</hgroup>
+    <section class="col-xs-12 col-sm-6 col-md-12">
+    <% if @results[:books].count > 0 %>
+      <div class='col-xs-3'>
+        <% @results[:books].each do |book| %>
+          <%= render 'books/book', :book => book %>
+        <% end %>
+      </div>
+    <% end %>
+  	</section>
+  </div>
+<% end %>
