@@ -1,9 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+game_shooting_trainer:
+  name: Shooting Trainer
+  description: Shooting Trainer is the successor to Wild Gunman in arcades and is, like Wild Gunman, part of the Simulation System series of arcade games developed by Nintendo. The game is a light gun game that features a plastic rifle that allows you to shoot the digital white bottles that randomly appear on the screen that has a backdrop of a scenic western country. The best score the player can get is 40.
 
-one:
-  name: MyString
-  description: MyText
+game_dead_line:
+  name: Dead Line
+  description: Dead Line is a rare price machine arcade game released in 1978 by Nintendo. It was one of at least two price machines released during this time period, the other being Fancy Ball. Dead Line, which was stationed in a blue arcade cabinet, was all about trying to get the falling marbles into the appropriate holes which would reward the player with candy or tokens.
 
-two:
-  name: MyString
-  description: MyText
+game_space_fever:
+  name: Space Fever
+  description: Space Fever is a Nintendo developed video game in the same vein of Space Invaders in regards to gameplay mechanics and the overall concept. Its a blatant ripoff released in 1979 for arcades that had various different versions, including one that was in color (the original wasn't).
+
+game_radar_scope:
+  name: Radar Scope
+  description: Radar Scope is an arcade game by Nintendo released on 1979 in Japan and in the USA on 1980. The game was a success in Japan, but a failure in North America. It was decided to turn these into Donkey Kong.
+
+game_monkey_magic:
+  name: Monkey Magic
+  description: Monkey Magic is a Nintendo developed arcade game released exclusively in Japan in 1979. The game is a Breakout clone that has the player using their paddle and ball to destroy the image of a monkey's head above. Doing so will result in victory for the player. Occasionally after destroying a block, a special item will drop. If the player nabs it he'll be rewarded with extra points.

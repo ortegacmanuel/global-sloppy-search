@@ -1,9 +1,19 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+video_bitcoin:
+  title: Bitcoin Beyond the Bubble
+  description: If the notion of bitcoin intrigues you, yet you find yourself intimidated by the complicated techno-jargon surrounding it, then the documentary "Bitcoin Beyond the Bubble" is for you. This incisive overview explains the intricacies of the cryptocurrency in an engrossing and easily digestible manner.
 
-one:
-  title: MyString
-  description: MyText
+video_solitary:
+  title: Last Days of Solitary
+  description: Animalistic howls resonate down a hallway littered with food particles, streams of blood and toilet water. At first glance, you might believe this is the setting from a horror film. But this isn't a movie, and the horrors that occur here are far too real. This is the solitary confinement wing at Maine State Prison, and it's where the filmmakers behind Last Days of Solitary stationed their cameras for a period of three years.
 
-two:
-  title: MyString
-  description: MyText
+video_evacuatin_earth:
+  title: Evacuating Earth
+  description: A massive asteroid hurdles towards Earth. The total destruction of our planet is assured. Is there any hope of escape? The ins and outs of this hypothetical doomsday scenario are explored in Evacuating Earth, an entertaining speculative documentary from futurist and science enthusiast Isaac Arthur.
+
+video_pekin_man:
+  title: The Strange Case of Peking Man
+  description: One of history's most profound archeological discoveries occurred at an excavation site outside of Beijing during the 1920s when hundreds of fossilized fragments were unearthed. Upon examination, it was determined that these fossils belonged to members of a human lineage dating back 750,000 years. The remains were collectively given the name Peking Man, shipped to the United States for safekeeping during World War II, and vanished en route. In spite of a few promising leads, they still haven't been recovered. The ongoing search for these remains, and what they might reveal about the history of our species, serves as the basis for the thrilling documentary The Strange Case of Peking Man.
+
+video_truth_in_chaos:
+  title: Jordan Peterson Truth in the Time of Chaos
+  description: A professor of psychology at the University of Toronto, Jordan Peterson set off a firestorm in 2016 when he publicly denounced Canada's Bill C-16, a law that protected gender expression and identity. Protesting the use of special pronouns designed to describe variations of gender, Peterson was catapulted onto the global stage as an immediately polarizing figure. Since that time, as his public profile has widened, he has garnered an international audience of eager disciples and inflamed detractors. Jordan Peterson Truth in the Time of Chaos offers an in-depth conversation with the controversial professor as he expands upon his perceptions of personal responsibility, human rights, political correctness and the importance of historical archetypes.

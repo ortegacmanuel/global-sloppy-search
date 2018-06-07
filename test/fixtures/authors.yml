@@ -1,11 +1,24 @@
-# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+author_william_shakespeare:
+  first_name: William
+  last_name: Shakespeare
+  bio: English poet and playwright. Famous plays include Macbeth, Romeo and Juliet, Merchant of Venice and Hamlet. Shakespeare is widely considered the seminal writer of the English language.
 
-one:
-  first_name: MyString
-  last_name: MyString
-  bio: MyText
+author_victor_Hugo:
+  first_name: Victor
+  last_name: Hugo
+  bio: French author and poet. Hugo’s novels include Les Misérables, (1862) and Notre-Dame de Paris (1831).
 
-two:
-  first_name: MyString
-  last_name: MyString
-  bio: MyText
+author_oscar_wilde:
+  first_name: Oscar
+  last_name: Wilde
+  bio: Irish writer and poet. Wilde wrote humorous, satirical plays, such as ‘The Importance of Being Earnest‘ and ‘The Picture of Dorian Grey’.
+
+author_leo_tolstoy:
+  first_name: Leo
+  last_name: Tolstoy
+  bio: Russian novelist and moral philosopher. Famous works include the epic novels – War and Peace (1869) and Anna Karenina (1877). Tolstoy also became an influential philosopher with his brand of Christian pacificism.
+
+author_agatha_christie:
+  first_name: Agatha
+  last_name: Christie
+  bio: British fictional crime writer. Many of her books focused on series featuring her detectives ‘Poirot’ and Mrs Marple.
