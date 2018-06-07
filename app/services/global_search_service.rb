@@ -21,18 +21,18 @@ class GlobalSearchService
   end
 
   def find_books
-    Book.where('title LIKE :search OR description LIKE :search', search: "%#{@q}%")
+    Book.search @q, operator: "or"
   end
 
   def find_games
-    Game.where('name LIKE :search OR description LIKE :search', search: "%#{@q}%")
+    Game.search @q, operator: "or"
   end
 
   def find_videos
-    Video.where('title LIKE :search OR description LIKE :search', search: "%#{@q}%")
+    Video.search @q, operator: "or"
   end
 
   def find_authors
-    Author.where('first_name LIKE :search OR last_name LIKE :search OR bio LIKE :search', search: "%#{@q}%")
+    Author.search @q, operator: "or"
   end
 end
