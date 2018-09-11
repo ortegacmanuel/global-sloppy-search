@@ -40,7 +40,7 @@ class VideosControllerTest < ActionDispatch::IntegrationTest
 
   test "should destroy video" do
     assert_difference('Video.count', -1) do
-      delete video_url(@video)
+      #delete video_url(@video)
     end
 
     assert_redirected_to videos_url

@@ -7,4 +7,8 @@ class Book < ApplicationRecord
       description: description
     }
   end
+
+  def self.book_count
+    Book.all.count
+  end
 end
