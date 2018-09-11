@@ -1,4 +1,10 @@
+addons:
+  postgresql: 9.6
 language: ruby
 rvm:
  - 2.4.1
  - jruby
+script:
+ - bundle exec rake db:setup
+ - bundle exec rake db:test:prepare
+ - bundle exec rake test
