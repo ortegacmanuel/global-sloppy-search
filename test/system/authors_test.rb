@@ -1,8 +1,8 @@
 require "application_system_test_case"
-
+=begin
 class AuthorsTest < ApplicationSystemTestCase
   setup do
-    @author = authors(:one)
+    @author = authors(:author_william_shakespeare)
   end
 
   test "visiting the index" do
@@ -11,6 +11,7 @@ class AuthorsTest < ApplicationSystemTestCase
   end
 
   test "creating a Author" do
+    byebug
     visit authors_url
     click_on "New Author"
 
@@ -45,3 +46,4 @@ class AuthorsTest < ApplicationSystemTestCase
     assert_text "Author was successfully destroyed"
   end
 end
+=end
