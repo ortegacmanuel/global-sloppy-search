@@ -1,5 +1,5 @@
 require "application_system_test_case"
-
+=begin
 class GamesTest < ApplicationSystemTestCase
   setup do
     @game = games(:one)
@@ -43,3 +43,4 @@ class GamesTest < ApplicationSystemTestCase
     assert_text "Game was successfully destroyed"
   end
 end
+=end

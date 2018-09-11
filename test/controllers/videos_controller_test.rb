@@ -2,7 +2,7 @@ require 'test_helper'
 
 class VideosControllerTest < ActionDispatch::IntegrationTest
   setup do
-    @video = videos(:one)
+    @video = videos(:video_bitcoin)
   end
 
   test "should get index" do
